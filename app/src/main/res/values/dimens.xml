@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="temperature_text">120sp</dimen>
+    <dimen name="text_size_36_sp">36sp</dimen>
+</resources>

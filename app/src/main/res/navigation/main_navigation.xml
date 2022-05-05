@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/usersList2">
+
+    <fragment
+        android:id="@+id/usersList2"
+        android:name="com.example.listingapp.ui.UsersList"
+        android:label="Users">
+        <action
+            android:id="@+id/action_usersList2_to_weatherReport"
+            app:destination="@id/weatherReport"
+            app:popUpTo="@id/usersList2" />
+    </fragment>
+    <fragment
+        android:id="@+id/weatherReport"
+        android:name="com.example.listingapp.ui.WeatherReport"
+        android:label="Weather" />
+</navigation>

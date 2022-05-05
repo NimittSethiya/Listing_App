@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Listing App</string>
+    <string name="profile_image">profile_Image</string>
+    <string name="c">°C</string>
+</resources>
